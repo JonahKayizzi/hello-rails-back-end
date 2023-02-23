@@ -14,4 +14,4 @@ greetings = [
   "Hola!"
 ]
 
-greetings.each { |greeting| Greetings.create(greeting: greeting) }
+greetings.each { |greeting| Greeting.create(greeting: greeting) }

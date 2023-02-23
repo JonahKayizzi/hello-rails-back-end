@@ -1,3 +1,3 @@
 class Greeting < ApplicationRecord
-    validates :Text, presence: true, length: { maximum: 1000 }
+    validates :greeting, presence: true, length: { maximum: 1000 }
 end
